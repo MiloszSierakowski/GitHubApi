@@ -2,7 +2,6 @@
 
 *[General info](#general-info)
 *[Technologies](#technologies)
-*[Installation](#Installation)
 *[Usage](#Usage)
 
 ## General info
@@ -20,10 +19,6 @@ Project is created witch:
 * Spring Boot Starter Web
 * Spring Boot Starter Test
 * MapStruct 1.5.3.Final
-
-## Installation
-
-Instrukcje dotyczące instalacji i konfiguracji projektu. Można tu opisać wymagane zależności, kroki instalacji i konfiguracji środowiska.
 
 ## Usage
 
