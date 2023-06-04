@@ -22,4 +22,11 @@ Project is created witch:
 
 ## Usage
 
-Przykłady i instrukcje dotyczące korzystania z projektu. Można opisać dostępne funkcje, jak korzystać z API, przykłady kodu, itp.
+Use a tool like API testing tool like Postman to send HTTP GET requests to the following endpoint:
+GET http://localhost:8080/v1/github/repositories/{userName}
+
+Replace {userName} with the desired GitHub username for which you want to list the repositories.
+Include the Accept header in your request to specify the desired response format. The supported media type is application/json.
+
+If you specify the Accept header as application/xml, the API will throw an UnsupportedMediaType exception, indicating that the requested media type is not supported.
+Ensure that the specified GitHub username exists. If the user is not found, the API will throw a UserNotFoundException exception.
