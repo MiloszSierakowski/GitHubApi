@@ -1,4 +1,4 @@
-package com.crud.tasks.config;
+package com.github.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

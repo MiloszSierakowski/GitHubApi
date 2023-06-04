@@ -1,1 +1,1 @@
-rootProject.name = "GithubApi"
+rootProject.name = "GitHubApi"

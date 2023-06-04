@@ -1,2 +1,5 @@
-package com.github.exceptions;public class userNotFoundException {
+package com.github.exceptions;
+
+public class UserNotFoundException extends Exception{
+
 }

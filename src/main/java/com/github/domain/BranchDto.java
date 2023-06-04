@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class RepositoryBranchDto {
+public class BranchDto {
 
     @JsonProperty("name")
     private String name;
